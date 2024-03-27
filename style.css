@@ -1,0 +1,97 @@
+
+/* FONT FACES */
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+/* RESETS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-family: Roboto;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+input[type=search],
+button {
+    border: none;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+input[type=search]:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.476rem;
+}
+
+h2 {
+    font-size: 1.383rem;
+}
+
+h3 {
+    font-size: 1.296rem;
+}
+
+h4 {
+    font-size: 1.215rem;
+}
+
+h5 {
+    font-size: 1.138rem;
+}
+
+h6 {
+    font-size: 1.067rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.icon {
+    width: 20px;
+}
+
